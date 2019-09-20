@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Add to house listing</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+        <header>
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="index.html">GOV HOUSES</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarText">
+                      <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./sign_in.html">Sign In</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="./build.html">build</a>
+                            </li>
+                      </ul>
+                      <span class="navbar-text">
+                        Navbar text with an inline element
+                      </span>
+                    </div>
+                  </nav>
+    </header>
+
+    <div class="container">
+            <div class="col-md-8 m-auto">
+            <div class="card">
+            <div class="card-header">build a house listing
+
+            </div>
+            <div class="body">
+                <form action="" method="POST">
+                    <div class="form-group col-md-8 m-auto">
+                    <label for="name">Name</label>
+                    <input type="text"  name="name" id="housename" class="form-control">
+                    </div>
+
+                    <div class="form-group col-md-8">
+                            <label for="name">Price</label>
+                            <input type="text"  name="price" id="houseprice" class="form-control">
+                            </div>
+                    
+                    <div class="form-group col-md-8">
+                    <label for="name">House ID</label>
+                    <input type="text"  name="name" id="houseid" class="form-control">
+                    </div>
+
+                    <div class="form-group col-md-8">
+                    <label for="name">Description</label>
+                    <textarea name="description" id="" cols="30" rows="10" id="housedescription" class="form-control">
+                    </textarea>
+                    </div>
+
+
+                    <div class="form-group col-md-8">
+                            <label for="name">Image</label>
+                            <input type="file" name="image" id="image">
+
+
+                    <div class="form-group m-auto">
+                        <input type="submit" value="submit" class="btn btn-primary m-auto">
+
+                    </div>
+
+
+
+                </form>
+            </div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+    
+</body>
+</html>

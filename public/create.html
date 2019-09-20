@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>login page</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <a class="navbar-brand" href="index.html">Gov House World</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="login.html">Sign in</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="register.html">Register</a>
+                    </li>
+                </ul>
+            </div>  
+        </nav>
+    </header>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-8 m-auto">
+                <div class="card">
+                    <div class="card-header">List your houses</div>
+                    <div class="card-body">
+
+
+                        <form action="" method="POST" id="new_list">
+
+                        <div class="form-group">
+                            <div class="col-md-8 m-auto">
+                                <label for="name" id="name">Property Name</label>
+                                <input type="text" name="" id="propertyname" class="form-control" placeholder="duplex">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-md-8 m-auto">
+                                <label for="price" id="price" required>Price of Property</label>
+                                <input type="number" name="" id="propertyprice" class="form-control" placeholder="price">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-md-8 m-auto">
+                                <label for="number" id="tel">Property Description</label>
+                                <textarea name="description" id="" cols="30" rows="10" id="housedescription" class="form-control"></textarea>
+                            </div>
+                        </div>
+
+                        
+
+                        <div class="form-group m-auto mb-3">
+                            <div class="col-md-8 m-auto">
+                                
+                                <input type="file" name="image" id="propertyimage" class="form-control"
+                                    >
+                            </div>
+                        </div>
+
+                        <div class="form-group m-auto">
+                            <br>
+                            <div class="col-md-8 m-auto ">
+
+                                <input type="submit" value="List" class="btn btn-primary" id="submitData">
+                                
+
+                            </div>
+                        </div>
+                    </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+       
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./javascript/index.js"></script>
+    <!-- <script src="node_modules/popper.js/dist/popper.min.js"></script> -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
